@@ -28,3 +28,8 @@ $tiger->eat($meatFood);
 $elephant->eat($plantFood);
 $fox->eat($meatFood)->eat($plantFood);
 $rabbit->eat($plantFood);
+
+echo "\n^^^  Pielęgnacja zwierząt ^^^\n\n";
+
+$fox->groom();
+$rabbit->groom();

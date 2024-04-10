@@ -8,6 +8,6 @@ abstract class Animal {
     }
 
     public function __toString (): string {
-        return "{$this->name}\n";
+        return sprintf("%s %s\n", get_class($this), $this->name);
     }
 }

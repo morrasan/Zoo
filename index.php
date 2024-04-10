@@ -14,12 +14,12 @@ require_once 'vendor/autoload.php';
 
 echo "\n### Zoo ###\n\n";
 
-$tiger      = new Tiger("Tygrys Szerchan");
-$snowIrbis  = new SnowIrbis("Irbis Śnieżek");
-$elephant   = new Elephant("Słoń Dabmo");
-$fox        = new Fox("Lis Mykyta");
-$rhinoceros = new Rhinoceros("Nosorożec Duke");
-$rabbit     = new Rabbit("Królik Truskawek");
+$tiger      = new Tiger("Szerchan");
+$snowIrbis  = new SnowIrbis("Śnieżek");
+$elephant   = new Elephant("Dabmo");
+$fox        = new Fox("Mykyta");
+$rhinoceros = new Rhinoceros("Duke");
+$rabbit     = new Rabbit("Truskawek");
 
 $zoo = Zoo::getInstance();
 $zoo->addAnimals([$tiger, $snowIrbis, $elephant, $fox, $rhinoceros]);

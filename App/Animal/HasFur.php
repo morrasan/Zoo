@@ -4,6 +4,6 @@ namespace App\Animal;
 
 trait HasFur {
     public function groom (): void {
-        echo "{$this->name} czesze futro.\n";
+        echo "{$this->type} {$this->name} czesze futro.\n";
     }
 }

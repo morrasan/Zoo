@@ -12,7 +12,7 @@ use App\Zoo;
 
 require_once 'vendor/autoload.php';
 
-echo "\n### Zoo ###\n\n";
+echo "<pre>\n### Zoo ###\n\n";
 
 $tiger      = new Tiger("Szerchan");
 $snowIrbis  = new SnowIrbis("Śnieżek");
@@ -43,3 +43,5 @@ echo "\n^^^  Pielęgnacja zwierząt ^^^\n\n";
 
 $fox->groom();
 $rabbit->groom();
+
+echo "\n^^^  Oto moje Zoo :) ^^^\n\n</pre>";

@@ -1,10 +1,10 @@
 <?php
 
-namespace Omnivorous;
+namespace App\Animal\Omnivorous;
 
-use Animal;
-use MeatFood;
-use PlantFood;
+use App\Animal\Animal;
+use App\Food\MeatFood;
+use App\Food\PlantFood;
 
 abstract class OmnivorousAnimal extends Animal {
 

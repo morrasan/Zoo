@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Animal;
+
 abstract class Animal {
     public string $name;
 

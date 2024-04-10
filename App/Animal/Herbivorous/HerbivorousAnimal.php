@@ -1,9 +1,9 @@
 <?php
 
-namespace Herbivorous;
+namespace App\Animal\Herbivorous;
 
-use Animal;
-use PlantFood;
+use App\Animal\Animal;
+use App\Food\PlantFood;
 
 abstract class HerbivorousAnimal extends Animal {
 

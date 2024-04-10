@@ -1,8 +1,8 @@
 <?php
 
-namespace Herbivorous;
+namespace App\Animal\Herbivorous;
 
-use HasFur;
+use App\Animal\HasFur;
 
 class Rabbit extends HerbivorousAnimal {
     use HasFur;

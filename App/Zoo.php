@@ -1,5 +1,9 @@
 <?php
 
+namespace App;
+
+use App\Animal\Animal;
+
 class Zoo {
     private static ?Zoo $instance = null;
     private array $animals = [];

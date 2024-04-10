@@ -1,11 +1,14 @@
 <?php
 
-use Carnivorous\SnowIrbis;
-use Carnivorous\Tiger;
-use Herbivorous\Elephant;
-use Herbivorous\Rabbit;
-use Herbivorous\Rhinoceros;
-use Omnivorous\Fox;
+use App\Animal\Carnivorous\SnowIrbis;
+use App\Animal\Carnivorous\Tiger;
+use App\Animal\Herbivorous\Elephant;
+use App\Animal\Herbivorous\Rabbit;
+use App\Animal\Herbivorous\Rhinoceros;
+use App\Animal\Omnivorous\Fox;
+use App\Food\MeatFood;
+use App\Food\PlantFood;
+use App\Zoo;
 
 require_once 'autoloader.php';
 

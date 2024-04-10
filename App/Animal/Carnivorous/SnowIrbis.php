@@ -1,8 +1,8 @@
 <?php
 
-namespace Carnivorous;
+namespace App\Animal\Carnivorous;
 
-use HasFur;
+use App\Animal\HasFur;
 
 class SnowIrbis extends CarnivorousAnimal {
     use HasFur;

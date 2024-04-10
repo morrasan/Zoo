@@ -1,8 +1,8 @@
 <?php
 
-namespace Omnivorous;
+namespace App\Animal\Omnivorous;
 
-use HasFur;
+use App\Animal\HasFur;
 
 class Fox extends OmnivorousAnimal {
     use HasFur;

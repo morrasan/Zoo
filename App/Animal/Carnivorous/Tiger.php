@@ -1,8 +1,8 @@
 <?php
 
-namespace Carnivorous;
+namespace App\Animal\Carnivorous;
 
-use HasFur;
+use App\Animal\HasFur;
 
 class Tiger extends CarnivorousAnimal {
     use HasFur;

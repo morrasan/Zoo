@@ -16,7 +16,7 @@ echo "\n### Zoo ###\n\n";
 
 $tiger      = new Tiger("Szerchan");
 $snowIrbis  = new SnowIrbis("Śnieżek");
-$elephant   = new Elephant("Dabmo");
+$elephant   = new Elephant("Dambo");
 $fox        = new Fox("Mykyta");
 $rhinoceros = new Rhinoceros("Duke");
 $rabbit     = new Rabbit("Truskawek");

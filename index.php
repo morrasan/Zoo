@@ -1,5 +1,12 @@
 <?php
 
+use Carnivorous\SnowIrbis;
+use Carnivorous\Tiger;
+use Herbivorous\Elephant;
+use Herbivorous\Rabbit;
+use Herbivorous\Rhinoceros;
+use Omnivorous\Fox;
+
 require_once 'autoloader.php';
 
 echo "\n### Zoo ###\n\n";

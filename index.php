@@ -10,7 +10,7 @@ use App\Food\MeatFood;
 use App\Food\PlantFood;
 use App\Zoo;
 
-require_once 'autoloader.php';
+require_once 'vendor/autoload.php';
 
 echo "\n### Zoo ###\n\n";
 
